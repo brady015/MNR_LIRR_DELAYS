@@ -123,6 +123,7 @@ def main():
         des_dir='%s.csv'%(branch)
         end_date=date.today()
         #branch / start_date / end_date ready
+        print '\n\nstart branch %s'%(branch)
         parser(start_date,end_date,des_dir)
         print 'start creating folder'
         pivot(des_dir,branch)
@@ -141,14 +142,15 @@ if __name__ == '__main__':
         'MNR':mnr_parser,
         'LIRR':lir_parser
     }
-    today = date.today()
+    today = date(2010, 1, 1)
     while True:
         if today == date.today():
             pass
         else:
-           today = date.today()
-           main()
-        timeDelay(5)
-        os.system('git add .; git commit -m %s;git push'%(today.strftime("%m/%d/%Y")))
-        timeDelay(86395)
-    main()
+            today = date.today()
+            try:
+                main()
+            except:
+                pass
+            os.system('git add .; git commit -m %s;git push'%(today.strftime("%m/%d/%Y")))
+        timeDelay(24*60*60)
