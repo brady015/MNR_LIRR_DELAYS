@@ -1,4 +1,4 @@
-#data parser for Metro North Railroad Delayed and Canceled Train Information
+#web parser for Metro North Railroad Delayed and Canceled Train Information
 import urllib
 import urllib2
 from datetime import timedelta, date
@@ -6,8 +6,8 @@ from bs4 import BeautifulSoup as bs
 from pandas import DataFrame as df
 import sys
 import os
+import time
 
-#######lir_parser/mnr_parser---->daterange--->load_page---->save_file
 
 #date generater
 def daterange(start_date, end_date):
@@ -46,7 +46,7 @@ def save_file(soup,csvfile):
         csvfile.write(','.join([time,branch,late])+'\n')
 
 
-## wrap around of web scraping for mnr
+## web scraping for mnr
 def mnr_parser(start_date, end_date,des_dir):
     with open(des_dir, 'w+') as csvfile:
         for vDate1,vDate2 in daterange(start_date, end_date):
@@ -57,7 +57,7 @@ def mnr_parser(start_date, end_date,des_dir):
     print 'saved\n\n'
 
 
-## wrap around of web scraping for lirr
+## web scraping for lirr
 def lir_parser(start_date, end_date,des_dir):
     with open(des_dir, 'w+') as csvfile:
         for vDate1,vDate2 in daterange(start_date, end_date):
@@ -87,6 +87,8 @@ def range_switcher(x):
     else:
         return '31+'
 
+def timeDelay(sec):
+    time.sleep(sec)
 
 #late or cancelled switcher
 def formatting(x):
@@ -139,5 +141,14 @@ if __name__ == '__main__':
         'MNR':mnr_parser,
         'LIRR':lir_parser
     }
-
+    today = date.today()
+    while True:
+        if today == date.today():
+            pass
+        else:
+           today = date.today()
+           main()
+        timeDelay(5)
+        os.system('git add .; git commit -m %s;git push'%(today.strftime("%m/%d/%Y")))
+        timeDelay(86395)
     main()
