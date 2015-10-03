@@ -111,10 +111,9 @@ def pivot(filename, finaldir):
     del new_table['mins']
     if not os.path.exists(finaldir):
         os.makedirs(finaldir)
-    for branch_ in new_table.branch.unique():
-        new_table[new_table['branch']==branch_].pivot(index='date',\
-            columns='branch-late',\
-            values='count').to_csv('%s/%s.csv'%(finaldir,branch_))
+    new_table.pivot(index='date',\
+        columns='branch-late',\
+        values='count').to_csv('%s/%s.csv'%(finaldir,branch_))
 
 def main():
     for branch in branch_list:
