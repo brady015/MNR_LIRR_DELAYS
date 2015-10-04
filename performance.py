@@ -14,7 +14,7 @@ def movedata(folder_list):
     for finaldir in folder_list:
         if not os.path.exists(finaldir):
             os.makedirs(finaldir)
-        os.rename(os.path.join('raw_data','Performance','MTA_Performance_%s.csv'%(finaldir)), os.path.join(finaldir,'MTA_Performance_%s.csv'%(finaldir)))
+        shutil.copyfile(os.path.join('raw_data','Performance','MTA_Performance_%s.csv'%(finaldir)), os.path.join(finaldir,'MTA_Performance_%s.csv'%(finaldir)))
 def main():
     load()
     movedata(folder_list)
