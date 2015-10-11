@@ -104,6 +104,7 @@ def formatting(x):
 
 #creating folder of different branchs
 def pivot(filename, finaldir):
+    table=df.from_csv(filename,header=None,index_col=None)
     table.columns=['date','branch','late']
     table['count']=0
     table.loc[:,'date']=table.date.apply(lambda x:x.split('/')[-1]+'-'+x.split('/')[0])
