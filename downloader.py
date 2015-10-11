@@ -73,7 +73,6 @@ def lir_parser(start_date, end_date,des_dir):
     print 'saved\n\n'
 
 
-#trival function for mins switch
 def range_switcher(x):
     if 5<x<=10:
         return '6-10'
@@ -86,7 +85,11 @@ def range_switcher(x):
     elif 25<x<=30:
         return '26-30'
     else:
-        return '31+'
+        try:
+            int(x) 
+            return '31+'
+        except:
+            return x
 
 def timeDelay(sec):
     time.sleep(sec)
@@ -95,27 +98,30 @@ def timeDelay(sec):
 def formatting(x):
     if 'Late' in x:
         minutes=float(x.split('-')[1].strip().split()[0].strip())
-        return range_switcher(minutes)
+        return minutes
     else:
         return x
 
 #creating folder of different branchs
 def pivot(filename, finaldir):
-    table=df.from_csv(filename,header=None,index_col=None)
     table.columns=['date','branch','late']
     table['count']=0
     table.loc[:,'date']=table.date.apply(lambda x:x.split('/')[-1]+'-'+x.split('/')[0])
     table.loc[:,'mins']=table.late.apply(formatting)
+    table=table.sort(columns=['branch','mins'])
     del table['late']
-    new_table=table.groupby(by=['branch','date','mins']).agg('count').reset_index()
+    table.loc[:,'mins']=table.mins.apply(range_switcher)
+    new_table=table.groupby(by=['branch','date','mins'],sort=False).agg('count').reset_index()
     new_table['branch-late']=new_table['branch']+'   '+new_table['mins']
     del new_table['mins']
     if not os.path.exists(finaldir):
         os.makedirs(finaldir)
-    new_table.pivot(index='date',\
-        columns='branch-late',\
-        values='count').to_csv(os.path.join(finaldir,'%s_Delayed_Canceled_Trains.csv'%(finaldir)))
+    pivot_table=df()
+    for i in new_table.index:
+        pivot_table.loc[new_table.ix[i,'date'],new_table.ix[i,'branch-late']]=new_table.ix[i,'count']
+    pivot_table.to_csv(os.path.join(finaldir,'%s_Delayed_Canceled_Trains.csv'%(finaldir)))
 
+    
 def main():
     if not os.path.exists('raw_data'):
         os.makedirs('raw_data')
