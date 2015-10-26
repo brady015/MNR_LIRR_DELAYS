@@ -74,16 +74,10 @@ def lir_parser(start_date, end_date,des_dir):
 
 
 def range_switcher(x):
-    if 5<x<=10:
-        return '6-10'
-    elif 10<x<=15:
-        return '11-15'
-    elif 15<x<=20:
-        return '16-20'
-    elif 20<x<=25:
-        return '21-25'
-    elif 25<x<=30:
-        return '26-30'
+    if 5<x<=15:
+        return '6-15'
+    elif 15<x<=30:
+        return '16-30'
     else:
         try:
             int(x) 
@@ -133,7 +127,7 @@ def main():
         end_date=date.today()
         #branch / start_date / end_date ready
         print '\n\nstart branch %s'%(branch)
-        parser(start_date,end_date,des_dir)
+        # parser(start_date,end_date,des_dir)
         print 'start creating folder'
         pivot(des_dir,branch)
         print 'done, please check %s folder\n\n\n\n\n'%(branch)
