@@ -41,6 +41,7 @@ def trend(finaldir):
     table.columns=[i.strip() for i in table.columns.tolist()]
     table[column_order[finaldir]].to_csv(os.path.join(finaldir,'MTA_Performance_Trends_%s.csv'%(finaldir)))
 def main():
+    load()
     for finaldir in folder_list:
         pause(finaldir)
         trend(finaldir)
