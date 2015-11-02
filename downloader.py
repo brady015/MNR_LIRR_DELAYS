@@ -127,7 +127,7 @@ def main():
         end_date=date.today()
         #branch / start_date / end_date ready
         print '\n\nstart branch %s'%(branch)
-        # parser(start_date,end_date,des_dir)
+        parser(start_date,end_date,des_dir)
         print 'start creating folder'
         pivot(des_dir,branch)
         print 'done, please check %s folder\n\n\n\n\n'%(branch)
@@ -148,13 +148,9 @@ if __name__ == '__main__':
     }
 
 
-    if len(sys.argv)>1:
-
-        start_date_dict={
-        'MNR': date(2015, 8, 1),
-        'LIRR': date(2015, 8, 1)
-        }
+    if len(sys.argv)==1:
         main()
+        os.system('git add .; git commit -m %s;git push'%(date.today().strftime("%m/%d/%Y")))
     else:
         today = date(2010, 1, 1)
         while True:
