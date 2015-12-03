@@ -359,6 +359,7 @@
 247825,247625,"MTA Bus","Employee Lost Time Rate - MTA Bus","An employee lost time injury or illness is one that prevents an employee from returning to work for at least one full shift following the day of the incident.  The rate is injuries and illness per 100 employees.","Safety Indicators","M","D","-",2,2015,6,0,7.62,0,8.05
 247825,247625,"MTA Bus","Employee Lost Time Rate - MTA Bus","An employee lost time injury or illness is one that prevents an employee from returning to work for at least one full shift following the day of the incident.  The rate is injuries and illness per 100 employees.","Safety Indicators","M","D","-",2,2015,7,0,7.64,0,7.79
 247825,247625,"MTA Bus","Employee Lost Time Rate - MTA Bus","An employee lost time injury or illness is one that prevents an employee from returning to work for at least one full shift following the day of the incident.  The rate is injuries and illness per 100 employees.","Safety Indicators","M","D","-",2,2015,8,0,7.70,0,8.12
+247825,247625,"MTA Bus","Employee Lost Time Rate - MTA Bus","An employee lost time injury or illness is one that prevents an employee from returning to work for at least one full shift following the day of the incident.  The rate is injuries and illness per 100 employees.","Safety Indicators","M","D","-",2,2015,9,0,7.42,0,7.20
 304492,304490,"MTA Bus","Collisions with Injury Rate - MTA Bus","An injury resulting from a collision between a bus and another vehicle, an object, a person, or an animal. Includes people injured in other vehicles.  The rate is the number of collisions with injuries per million miles. In 2009, the methodology was revised to ensure consistency of data across the bus companies.","Safety Indicators","M","D","-",2,2008,12,0,5.49,0,.00
 304492,304490,"MTA Bus","Collisions with Injury Rate - MTA Bus","An injury resulting from a collision between a bus and another vehicle, an object, a person, or an animal. Includes people injured in other vehicles.  The rate is the number of collisions with injuries per million miles. In 2009, the methodology was revised to ensure consistency of data across the bus companies.","Safety Indicators","M","D","-",2,2009,1,5.38,3.20,5.38,3.20
 304492,304490,"MTA Bus","Collisions with Injury Rate - MTA Bus","An injury resulting from a collision between a bus and another vehicle, an object, a person, or an animal. Includes people injured in other vehicles.  The rate is the number of collisions with injuries per million miles. In 2009, the methodology was revised to ensure consistency of data across the bus companies.","Safety Indicators","M","D","-",2,2009,2,5.38,3.01,5.38,2.80
@@ -533,6 +534,7 @@
 374929,0,"MTA Bus","% of Completed Trips - MTA Bus","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2015,6,99.36,98.07,99.36,98.29
 374929,0,"MTA Bus","% of Completed Trips - MTA Bus","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2015,7,99.36,98.20,99.36,98.99
 374929,0,"MTA Bus","% of Completed Trips - MTA Bus","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2015,8,99.36,98.34,99.36,99.28
+374929,0,"MTA Bus","% of Completed Trips - MTA Bus","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2015,9,99.36,98.44,99.36,99.28
 374930,374929,"MTA Bus","Yonkers Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2008,1,99.40,99.77,99.40,99.77
 374930,374929,"MTA Bus","Yonkers Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2008,2,99.40,99.79,99.40,99.81
 374930,374929,"MTA Bus","Yonkers Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2008,3,99.40,99.78,99.40,99.75
@@ -625,6 +627,7 @@
 374930,374929,"MTA Bus","Yonkers Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2015,6,99.36,99.19,99.36,99.41
 374930,374929,"MTA Bus","Yonkers Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2015,7,99.36,99.25,99.36,99.63
 374930,374929,"MTA Bus","Yonkers Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2015,8,99.36,99.31,99.36,99.72
+374930,374929,"MTA Bus","Yonkers Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2015,9,99.36,99.22,99.36,98.47
 374931,374929,"MTA Bus","Eastchester Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2008,1,99.40,99.89,99.40,99.89
 374931,374929,"MTA Bus","Eastchester Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2008,2,99.40,99.91,99.40,99.93
 374931,374929,"MTA Bus","Eastchester Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2008,3,99.40,99.92,99.40,99.96
@@ -717,6 +720,7 @@
 374931,374929,"MTA Bus","Eastchester Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2015,6,99.36,99.04,99.36,98.72
 374931,374929,"MTA Bus","Eastchester Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2015,7,99.36,99.04,99.36,99.08
 374931,374929,"MTA Bus","Eastchester Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2015,8,99.36,99.08,99.36,99.32
+374931,374929,"MTA Bus","Eastchester Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2015,9,99.36,99.09,99.36,99.13
 374932,374929,"MTA Bus","Spring Creek Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2008,1,99.40,99.37,99.40,99.37
 374932,374929,"MTA Bus","Spring Creek Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2008,2,99.40,98.93,99.40,98.51
 374932,374929,"MTA Bus","Spring Creek Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2008,3,99.40,97.48,99.40,94.63
@@ -809,6 +813,7 @@
 374932,374929,"MTA Bus","Spring Creek Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2015,6,99.36,99.24,99.36,99.16
 374932,374929,"MTA Bus","Spring Creek Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2015,7,99.36,99.28,99.36,99.47
 374932,374929,"MTA Bus","Spring Creek Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2015,8,99.36,99.33,99.36,99.71
+374932,374929,"MTA Bus","Spring Creek Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2015,9,99.36,99.36,99.36,99.62
 374933,374929,"MTA Bus","LaGuardia Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2008,1,99.40,99.56,99.40,99.56
 374933,374929,"MTA Bus","LaGuardia Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2008,2,99.40,99.39,99.40,99.17
 374933,374929,"MTA Bus","LaGuardia Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2008,3,99.40,99.48,99.40,99.63
@@ -901,6 +906,7 @@
 374933,374929,"MTA Bus","LaGuardia Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2015,6,99.36,98.91,99.36,99.07
 374933,374929,"MTA Bus","LaGuardia Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2015,7,99.36,98.99,99.36,99.50
 374933,374929,"MTA Bus","LaGuardia Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2015,8,99.36,99.07,99.36,99.56
+374933,374929,"MTA Bus","LaGuardia Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2015,9,99.36,99.13,99.36,99.67
 374934,374929,"MTA Bus","JFK Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2008,1,99.40,99.45,99.40,99.45
 374934,374929,"MTA Bus","JFK Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2008,2,99.40,99.09,99.40,98.70
 374934,374929,"MTA Bus","JFK Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2008,3,99.40,99.10,99.40,99.13
@@ -993,6 +999,7 @@
 374934,374929,"MTA Bus","JFK Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2015,6,99.36,95.64,99.36,95.60
 374934,374929,"MTA Bus","JFK Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2015,7,99.36,95.97,99.36,97.88
 374934,374929,"MTA Bus","JFK Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2015,8,99.36,96.30,99.36,98.58
+374934,374929,"MTA Bus","JFK Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2015,9,99.36,96.60,99.36,98.96
 374935,374929,"MTA Bus","Far Rockaway Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2008,1,99.40,99.11,99.40,99.11
 374935,374929,"MTA Bus","Far Rockaway Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2008,2,99.40,98.79,99.40,98.46
 374935,374929,"MTA Bus","Far Rockaway Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2008,3,99.40,98.45,99.40,97.77
@@ -1085,6 +1092,7 @@
 374935,374929,"MTA Bus","Far Rockaway Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2015,6,99.36,97.58,99.36,98.83
 374935,374929,"MTA Bus","Far Rockaway Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2015,7,99.36,97.85,99.36,99.52
 374935,374929,"MTA Bus","Far Rockaway Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2015,8,99.36,98.07,99.36,99.58
+374935,374929,"MTA Bus","Far Rockaway Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2015,9,99.36,98.25,99.36,99.71
 374936,374929,"MTA Bus","College Point Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2008,1,99.40,99.27,99.40,99.27
 374936,374929,"MTA Bus","College Point Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2008,2,99.40,99.33,99.40,99.39
 374936,374929,"MTA Bus","College Point Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2008,3,99.40,99.41,99.40,99.57
@@ -1177,6 +1185,7 @@
 374936,374929,"MTA Bus","College Point Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2015,6,99.36,98.86,99.36,99.15
 374936,374929,"MTA Bus","College Point Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2015,7,99.36,98.88,99.36,98.95
 374936,374929,"MTA Bus","College Point Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2015,8,99.36,98.93,99.36,99.29
+374936,374929,"MTA Bus","College Point Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2015,9,99.36,98.98,99.36,99.39
 374937,374929,"MTA Bus","Baisley Park Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2008,1,99.40,99.69,99.40,99.69
 374937,374929,"MTA Bus","Baisley Park Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2008,2,99.40,99.70,99.40,99.71
 374937,374929,"MTA Bus","Baisley Park Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2008,3,99.40,99.77,99.40,99.95
@@ -1269,6 +1278,7 @@
 374937,374929,"MTA Bus","Baisley Park Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2015,6,99.36,97.95,99.36,98.44
 374937,374929,"MTA Bus","Baisley Park Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2015,7,99.36,98.10,99.36,98.92
 374937,374929,"MTA Bus","Baisley Park Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2015,8,99.36,98.24,99.36,99.27
+374937,374929,"MTA Bus","Baisley Park Depot - % of Completed Trips","The percent of total scheduled bus trips completed","Service Indicators","M","U","%",2,2015,9,99.36,98.30,99.36,98.72
 374957,374952,"MTA Bus","Bus Passenger Wheelchair Lift Usage  - MTA Bus","The number of times a wheelchair lift is used to board a passenger.  Use of a wheelchair lift can be requested by any customer who feels he or she cannot board the bus by stepping through the front door.","Service Indicators","M","N","-",0,2008,1,0,2727.00,0,2727.00
 374957,374952,"MTA Bus","Bus Passenger Wheelchair Lift Usage  - MTA Bus","The number of times a wheelchair lift is used to board a passenger.  Use of a wheelchair lift can be requested by any customer who feels he or she cannot board the bus by stepping through the front door.","Service Indicators","M","N","-",0,2008,2,0,5365.00,0,2638.00
 374957,374952,"MTA Bus","Bus Passenger Wheelchair Lift Usage  - MTA Bus","The number of times a wheelchair lift is used to board a passenger.  Use of a wheelchair lift can be requested by any customer who feels he or she cannot board the bus by stepping through the front door.","Service Indicators","M","N","-",0,2008,3,0,8498.00,0,3133.00
@@ -1361,3 +1371,4 @@
 374957,374952,"MTA Bus","Bus Passenger Wheelchair Lift Usage  - MTA Bus","The number of times a wheelchair lift is used to board a passenger.  Use of a wheelchair lift can be requested by any customer who feels he or she cannot board the bus by stepping through the front door.","Service Indicators","M","N","-",0,2015,6,27345.00,31664.00,6559.00,7191.00
 374957,374952,"MTA Bus","Bus Passenger Wheelchair Lift Usage  - MTA Bus","The number of times a wheelchair lift is used to board a passenger.  Use of a wheelchair lift can be requested by any customer who feels he or she cannot board the bus by stepping through the front door.","Service Indicators","M","N","-",0,2015,7,34519.00,39543.00,7174.00,7879.00
 374957,374952,"MTA Bus","Bus Passenger Wheelchair Lift Usage  - MTA Bus","The number of times a wheelchair lift is used to board a passenger.  Use of a wheelchair lift can be requested by any customer who feels he or she cannot board the bus by stepping through the front door.","Service Indicators","M","N","-",0,2015,8,41893.00,47821.00,7374.00,8278.00
+374957,374952,"MTA Bus","Bus Passenger Wheelchair Lift Usage  - MTA Bus","The number of times a wheelchair lift is used to board a passenger.  Use of a wheelchair lift can be requested by any customer who feels he or she cannot board the bus by stepping through the front door.","Service Indicators","M","N","-",0,2015,9,48494.00,55185.00,6601.00,7364.00
