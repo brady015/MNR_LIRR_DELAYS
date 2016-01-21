@@ -34,10 +34,13 @@ def trend(finaldir):
         xml=f.read()
     soup = BeautifulSoup(xml)
     for i in soup.findAll('monthly_actual'):
-        column=i.parent.parent.parent.parent.indicator_name.text
-        index=i.parent.parent.parent.period_year.text+'-'+i.parent.parent.period_month.text
-        value=i.text
-        table.ix[index,column]=value
+        try:
+            column=i.parent.parent.parent.parent.indicator_name.text
+            index=i.parent.parent.parent.period_year.text+'-'+i.parent.parent.period_month.text
+            value=i.text
+            table.ix[index,column]=value
+        except:
+            pass
     table.columns=[i.strip() for i in table.columns.tolist()]
     table[column_order[finaldir]].to_csv(os.path.join(finaldir,'MTA_Performance_Trends_%s.csv'%(finaldir)))
 def main():
